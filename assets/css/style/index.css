@@ -162,57 +162,125 @@
     padding-bottom: 100px;
 }
 
-.fylo .section-product .product-image,
-.fylo .product-wrap{
-    width: calc(50% - 75px);
-    height: 100%;
+    .fylo .section-product .product-image,
+    .fylo .product-wrap{
+        width: calc(50% - 15px);
+        height: 100%;
+            display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fylo .section-product .product-image{
+        flex-direction: row;
+        justify-content: unset;
+    }
+
+    .fylo .product-wrap{
+        padding-left: 30px;
+        align-items: unset;
+    }
+
+    .fylo .product-wrap .title{
+        font-size: 2.4rem;
+        max-width: 375px;
+        line-height: 1.3em;
+        margin-bottom: 15px;
+    }
+
+    .fylo .product-wrap .content-text p{
+        padding: 12px 0;
+        font-size: 14px;
+        line-height: 1.5em;
+        opacity: 0.9;
+        letter-spacing: 0.08em;
+    }
+
+    .fylo .product-wrap .link{
+        color: var(--Cyan) !important;
+        font-size: 16px;
+        opacity: 0.9;
         display: flex;
+        align-items: flex-end;
+        border-bottom: 1px solid var(--Cyan);
+        max-width: fit-content;
+        padding-bottom: 5px;
+        margin-top: 15px;
+
+    }
+
+    .fylo .product-wrap a img{
+        height: 16px;
+        width: auto;
+        margin-left: 5px;
+    }
+
+
+
+
+.fylo .section-testimony{
+    width: 100%;
+    background-color: var(--Dark-Blue-bg-main);
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.fylo .section-product .product-image{
     flex-direction: row;
-    justify-content: unset;
+    justify-content: center;
+    padding: 0 15px;
+    padding-bottom: 100px;
 }
 
-.fylo .product-wrap{
-    padding-left: 30px;
-    align-items: unset;
+.fylo .section-testimony .content{
+    background-image: url("../../img/bg-quotes.png");
+    background-repeat: no-repeat;
+    width: calc(100% - 150px);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 35px;
 }
 
-.fylo .product-wrap .title{
-    font-size: 2.4rem;
-    max-width: 375px;
-    line-height: 1.3em;
-    margin-bottom: 15px;
+.fylo .section-testimony .content .card{
+    width: calc(100% / 3 - 30px);
+    background: var(--Dark-Blue-testimonials);
+    padding: 30px 15px;
+    box-shadow: 0 10px 10px hsl(217, 28%, 15%),
+                10px 0 10px hsl(217, 28%, 15%),
+                10px 10px 10px hsl(217, 28%, 15%);
 }
 
-.fylo .product-wrap .content-text p{
-    padding: 12px 0;
+.fylo .section-testimony .content .card .card-sub{
     font-size: 14px;
     line-height: 1.5em;
+    letter-spacing: 0.06em;
     opacity: 0.9;
-    letter-spacing: 0.08em;
 }
 
-.fylo .product-wrap .link{
-    color: var(--Cyan) !important;
-    font-size: 16px;
-    opacity: 0.9;
+.fylo .section-testimony .content .card .card-footer{
+    margin-top: 25px;
     display: flex;
-    align-items: flex-end;
-    border-bottom: 1px solid var(--Cyan);
-    max-width: fit-content;
-    padding-bottom: 5px;
-    margin-top: 15px;
-
+    flex-wrap: wrap;
 }
 
-.fylo .product-wrap a img{
-    height: 16px;
-    width: auto;
-    margin-left: 5px;
+.fylo .section-testimony .content .card .card-footer .perfil-img{
+    padding-right: 15px;
+}
+
+.fylo .section-testimony .content .card .card-footer .perfil-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.fylo .section-testimony .content .card .card-footer .perfil-sub .name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fylo .section-testimony .content .card .card-footer .perfil-sub .work{
+    opacity: 0.9;
+    font-size: 12px;
+    padding-top: 5px;
 }
