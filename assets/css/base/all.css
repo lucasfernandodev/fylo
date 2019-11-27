@@ -52,7 +52,7 @@ header{
 }
 
 .btn{
-    min-width: 280px;
+    min-width: 200px;
     height: 48px;
     background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     color: var(--White);

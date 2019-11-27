@@ -85,7 +85,7 @@
 
     .fylo .welcome .content .btn-primary{
         margin: 25px 0;
-
+        width: 280px;
     }
 
     .fylo .welcome .content img{
@@ -227,60 +227,111 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding: 0 15px;
-    padding-bottom: 100px;
+    padding: 100px 15px;
+    padding-bottom: 500px;
 }
 
-.fylo .section-testimony .content{
-    background-image: url("../../img/bg-quotes.png");
-    background-repeat: no-repeat;
-    width: calc(100% - 150px);
+    .fylo .section-testimony .content{
+        background-image: url("../../img/bg-quotes.png");
+        background-repeat: no-repeat;
+        width: calc(100% - 150px);
 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 35px;
+    }
+
+    .fylo .section-testimony .content .card{
+        width: calc(100% / 3 - 30px);
+        background: var(--Dark-Blue-testimonials);
+        padding: 30px 15px;
+        box-shadow: 0 10px 5px hsl(217, 28%, 15%), 10px 0 5px hsl(217, 28%, 15%), 10px 10px 5px hsl(217, 28%, 15%);
+    }
+
+    .fylo .section-testimony .content .card .card-sub{
+        font-size: 14px;
+        line-height: 1.5em;
+        letter-spacing: 0.06em;
+        opacity: 0.9;
+    }
+
+    .fylo .section-testimony .content .card .card-footer{
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fylo .section-testimony .content .card .card-footer .perfil-img{
+        padding-right: 15px;
+    }
+
+    .fylo .section-testimony .content .card .card-footer .perfil-img img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .fylo .section-testimony .content .card .card-footer .perfil-sub .name{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .fylo .section-testimony .content .card .card-footer .perfil-sub .work{
+        opacity: 0.9;
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+.fylo .fylo-footer{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--Dark-Blue-footer);
+    position: relative;
+}
+
+.fylo .fylo-footer .section-action{
+    width: 60%;
+    min-width: 400px;
+    background: var(--Dark-Blue-email);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px;
+    position: absolute;
+    top: -170px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.fylo .section-testimony .content .card{
-    width: calc(100% / 3 - 30px);
-    background: var(--Dark-Blue-testimonials);
-    padding: 30px 15px;
-    box-shadow: 0 10px 10px hsl(217, 28%, 15%),
-                10px 0 10px hsl(217, 28%, 15%),
-                10px 10px 10px hsl(217, 28%, 15%);
+.fylo .fylo-footer .section-action .title{
+    font-size: 2.5em;
 }
 
-.fylo .section-testimony .content .card .card-sub{
-    font-size: 14px;
-    line-height: 1.5em;
-    letter-spacing: 0.06em;
-    opacity: 0.9;
+.fylo .fylo-footer .section-action .sub{
+    text-align: center;
+    padding: 30px;
 }
 
-.fylo .section-testimony .content .card .card-footer{
-    margin-top: 25px;
+.fylo .fylo-footer .section-action .form{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
 
-.fylo .section-testimony .content .card .card-footer .perfil-img{
-    padding-right: 15px;
+.fylo .fylo-footer .section-action .form .form-label{
+    display: none;
 }
 
-.fylo .section-testimony .content .card .card-footer .perfil-img img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.fylo .fylo-footer .section-action .form .form-input{
+    height: 48px;
+    border-radius: 48px;
+    border: none;
+    width: calc(100% - 250px);
+    padding-left: 25px;
 }
 
-.fylo .section-testimony .content .card .card-footer .perfil-sub .name{
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.fylo .section-testimony .content .card .card-footer .perfil-sub .work{
-    opacity: 0.9;
-    font-size: 12px;
-    padding-top: 5px;
-}
