@@ -1,0 +1,5 @@
+@import url("base/normalize.css");
+@import url("base/reset.css");
+@import url("base/all.css");
+
+@import url("style/index.css")

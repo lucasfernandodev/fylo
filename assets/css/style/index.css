@@ -1,0 +1,218 @@
+.fylo .fylo-header{
+    width: 100%;
+    height: 190px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 75px;
+}
+
+    .fylo .fylo-header .container-brand{
+        width: 165px;
+        height: auto;
+    }
+
+    .fylo .fylo-header .container-brand .brand-logo{
+        width: 100%;
+        height: auto;
+    }
+
+    .fylo .fylo-header .navbar{
+        height: 100%;
+        display: block;
+    }
+
+    .fylo .fylo-header .navbar .nav-menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100%;
+
+    }
+
+    .fylo .fylo-header .navbar .nav-menu .menu-item{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 50px;
+        margin-right: 0;
+        height: 100%;
+        font-weight: 400;
+    }
+
+
+
+
+
+.fylo .welcome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../img/bg-curvy-desktop.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    }
+
+    .fylo .welcome .content{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fylo .welcome .content .title{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .fylo .welcome .content .sub{
+        font-weight: 400;
+        text-align: center;
+        font-size: 18px;
+        max-width: 555px;
+        margin: 0 auto;
+        line-height: 1.5em;
+        opacity: 0.9;
+    }
+
+    .fylo .welcome .content .btn-primary{
+        margin: 25px 0;
+
+    }
+
+    .fylo .welcome .content img{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+.fylo .section-features{
+    width: 100%;
+    height: auto;
+    background-color: var(--Dark-Blue-bg-main);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 100px;
+}
+
+    .fylo .section-features .content{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .fylo .section-features .content .box{
+        width: calc(100% / 2 - 50px);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0;
+    }
+
+    .fylo .section-features .content .box .box-icon{
+        width: 60px;
+        height: auto;
+    }
+
+    .fylo .section-features .content .box .box-title{
+        font-size: 18px;
+        padding: 14px 0;
+    }
+
+    .fylo .section-features .content .box .box-text{
+        text-align: center;
+        display: block;
+        width: 100%;
+        opacity: 0.8;
+        line-height: 1.5em;
+        font-weight: 100;
+        letter-spacing: normal;
+    }
+
+
+
+
+
+.fylo .section-product{
+    width: 100%;
+    background-color: var(--Dark-Blue-bg-main);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 75px;
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.fylo .section-product .product-image,
+.fylo .product-wrap{
+    width: calc(50% - 75px);
+    height: 100%;
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fylo .section-product .product-image{
+    flex-direction: row;
+    justify-content: unset;
+}
+
+.fylo .product-wrap{
+    padding-left: 30px;
+    align-items: unset;
+}
+
+.fylo .product-wrap .title{
+    font-size: 2.4rem;
+    max-width: 375px;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+}
+
+.fylo .product-wrap .content-text p{
+    padding: 12px 0;
+    font-size: 14px;
+    line-height: 1.5em;
+    opacity: 0.9;
+    letter-spacing: 0.08em;
+}
+
+.fylo .product-wrap .link{
+    color: var(--Cyan) !important;
+    font-size: 16px;
+    opacity: 0.9;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid var(--Cyan);
+    max-width: fit-content;
+    padding-bottom: 5px;
+    margin-top: 15px;
+
+}
+
+.fylo .product-wrap a img{
+    height: 16px;
+    width: auto;
+    margin-left: 5px;
+}

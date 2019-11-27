@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+:root{
+/* Primary */
+--Dark-Blue-email: hsl(217, 28%, 15%);
+--Dark-Blue-bg-main: hsl(218, 28%, 13%);
+--Dark-Blue-footer: hsl(216, 53%, 9%);
+--Dark-Blue-testimonials: hsl(219, 30%, 18%);
+/* Accent */
+
+--Cyan: hsl(176, 68%, 64%);
+--Blue: hsl(198, 60%, 50%);
+
+/* Neutral */
+--White: hsl(0, 0%, 99%);
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, hsl(219, 30%, 18%), hsl(218, 28%, 13%));
+    color: var(--White);
+    overflow-y: scroll;
+}
+
+a{color: inherit};
+
+button, input{ font-family: 'Open Sans', sans-serif}
+
+
+h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: var(--White)
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;  
+    font-weight: 700;
+}
+
+
+
+header{
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn{
+    min-width: 280px;
+    height: 48px;
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: var(--White);
+    border: none;
+    border-radius: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
