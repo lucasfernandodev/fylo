@@ -1,190 +1,641 @@
-.fylo .fylo-header{
-    width: 100%;
-    height: 190px;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 75px;
-}
-
-    .fylo .fylo-header .container-brand{
-        width: 165px;
-        height: auto;
-    }
-
-    .fylo .fylo-header .container-brand .brand-logo{
+@media (min-width: 1150px){
+    .fylo .fylo-header{
         width: 100%;
-        height: auto;
-    }
-
-    .fylo .fylo-header .navbar{
-        height: 100%;
-        display: block;
-    }
-
-    .fylo .fylo-header .navbar .nav-menu{
+        height: 190px;
+    
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 100%;
-
-    }
-
-    .fylo .fylo-header .navbar .nav-menu .menu-item{
-        display: block;
-        display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        margin: 0 50px;
-        margin-right: 0;
-        height: 100%;
-        font-weight: 400;
-    }
-
-
-
-
-
-.fylo .welcome{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../../img/bg-curvy-desktop.svg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    padding-bottom: 200px;
-    }
-
-    .fylo .welcome .content{
-        width: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .fylo .welcome .content .title{
-        text-align: center;
-        font-family: 'Raleway', sans-serif;
-    }
-
-    .fylo .welcome .content .sub{
-        font-weight: 400;
-        text-align: center;
-        font-size: 18px;
-        max-width: 555px;
-        margin: 0 auto;
-        line-height: 1.5em;
-        opacity: 0.9;
-    }
-
-    .fylo .welcome .content .btn-primary{
-        margin: 25px 0;
-        width: 280px;
-    }
-
-    .fylo .welcome .content img{
-        width: 100%;
-        height: auto;
-    }
-
-
-
-
-
-.fylo .section-features{
-    width: 100%;
-    height: auto;
-    background-color: var(--Dark-Blue-bg-main);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    padding-bottom: 100px;
-}
-
-    .fylo .section-features .content{
-        width: 60%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
+        padding: 0 75px;
     }
-
-    .fylo .section-features .content .box{
-        width: calc(100% / 2 - 50px);
+    
+        .fylo .fylo-header .container-brand{
+            width: 165px;
+            height: auto;
+        }
+    
+        .fylo .fylo-header .container-brand .brand-logo{
+            width: 100%;
+            height: auto;
+        }
+    
+        .fylo .fylo-header .navbar{
+            height: 100%;
+            display: block;
+        }
+    
+        .fylo .fylo-header .navbar .nav-menu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 100%;
+    
+        }
+    
+        .fylo .fylo-header .navbar .nav-menu .menu-item{
+            display: block;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 0 50px;
+            margin-right: 0;
+            height: 100%;
+            font-weight: 400;
+        }
+    
+    
+    
+    
+    
+    .fylo .welcome{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../../img/bg-curvy-desktop.svg");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        padding-bottom: 200px;
+        }
+    
+        .fylo .welcome .content{
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .fylo .welcome .content .title{
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+        }
+    
+        .fylo .welcome .content .sub{
+            font-weight: 400;
+            text-align: center;
+            font-size: 18px;
+            max-width: 555px;
+            margin: 0 auto;
+            line-height: 1.5em;
+            opacity: 0.9;
+        }
+    
+        .fylo .welcome .content .btn-primary{
+            margin: 25px 0;
+            width: 280px;
+        }
+    
+        .fylo .welcome .content img{
+            width: 100%;
+            height: auto;
+        }
+    
+    
+    
+    
+    
+    .fylo .section-features{
+        width: 100%;
+        height: auto;
+        background-color: var(--Dark-Blue-bg-main);
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
-        margin: 50px 0;
+        align-items: flex-start;
+        padding-bottom: 100px;
     }
-
-    .fylo .section-features .content .box .box-icon{
-        width: 60px;
-        height: auto;
-    }
-
-    .fylo .section-features .content .box .box-title{
-        font-size: 18px;
-        padding: 14px 0;
-    }
-
-    .fylo .section-features .content .box .box-text{
-        text-align: center;
-        display: block;
+    
+        .fylo .section-features .content{
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    
+        .fylo .section-features .content .box{
+            width: calc(100% / 2 - 50px);
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 50px 0;
+        }
+    
+        .fylo .section-features .content .box .box-icon{
+            width: 70px;
+            height: auto;
+        }
+    
+        .fylo .section-features .content .box .box-title{
+            font-size: 18px;
+            padding: 14px 0;
+        }
+    
+        .fylo .section-features .content .box .box-text{
+            text-align: center;
+            display: block;
+            width: 100%;
+            opacity: 0.8;
+            line-height: 1.5em;
+            font-weight: 100;
+            letter-spacing: normal;
+        }
+    
+    
+    
+    
+    
+    .fylo .section-product{
         width: 100%;
-        opacity: 0.8;
-        line-height: 1.5em;
-        font-weight: 100;
-        letter-spacing: normal;
+        background-color: var(--Dark-Blue-bg-main);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 75px;
+        min-height: 500px;
+        padding-bottom: 100px;
     }
-
-
-
-
-
-.fylo .section-product{
-    width: 100%;
-    background-color: var(--Dark-Blue-bg-main);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0 75px;
-    height: 500px;
-    padding-bottom: 100px;
+    
+        .fylo .section-product .product-image,
+        .fylo .product-wrap{
+            width: calc(50% - 15px);
+            height: 100%;
+                display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .fylo .section-product .product-image{
+            flex-direction: row;
+            justify-content: unset;
+        }
+    
+        .fylo .product-wrap{
+            padding-left: 30px;
+            align-items: unset;
+        }
+    
+        .fylo .product-wrap .title{
+            font-size: 2.4rem;
+            max-width: 375px;
+            line-height: 1.3em;
+            margin-bottom: 15px;
+        }
+    
+        .fylo .product-wrap .content-text p{
+            padding: 12px 0;
+            font-size: 14px;
+            line-height: 1.5em;
+            opacity: 0.9;
+            letter-spacing: 0.08em;
+        }
+    
+        .fylo .product-wrap .link{
+            color: var(--Cyan) !important;
+            font-size: 16px;
+            opacity: 0.9;
+            display: flex;
+            align-items: flex-end;
+            border-bottom: 1px solid var(--Cyan);
+            max-width: fit-content;
+            padding-bottom: 5px;
+            margin-top: 15px;
+    
+        }
+    
+        .fylo .product-wrap a img{
+            height: 16px;
+            width: auto;
+            margin-left: 5px;
+        }
+    
+    
+    
+    
+    .fylo .section-testimony{
+        width: 100%;
+        background-color: var(--Dark-Blue-bg-main);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 100px 15px;
+        padding-bottom: 500px;
+    }
+    
+        .fylo .section-testimony .content{
+            background-image: url("../../img/bg-quotes.png");
+            background-repeat: no-repeat;
+            width: calc(100% - 150px);
+    
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-top: 35px;
+        }
+    
+        .fylo .section-testimony .content .card{
+            width: calc(100% / 3 - 30px);
+            background: var(--Dark-Blue-testimonials);
+            padding: 30px 15px;
+            box-shadow: 0 10px 5px hsl(217, 28%, 15%), 10px 0 5px hsl(217, 28%, 15%), 10px 10px 5px hsl(217, 28%, 15%);
+        }
+    
+        .fylo .section-testimony .content .card .card-sub{
+            font-size: 14px;
+            line-height: 1.5em;
+            letter-spacing: 0.06em;
+            opacity: 0.9;
+        }
+    
+        .fylo .section-testimony .content .card .card-footer{
+            margin-top: 25px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .fylo .section-testimony .content .card .card-footer .perfil-img{
+            padding-right: 15px;
+        }
+    
+        .fylo .section-testimony .content .card .card-footer .perfil-img img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+    
+        .fylo .section-testimony .content .card .card-footer .perfil-sub .name{
+            font-size: 14px;
+            font-weight: bold;
+        }
+    
+        .fylo .section-testimony .content .card .card-footer .perfil-sub .work{
+            opacity: 0.9;
+            font-size: 12px;
+            padding-top: 5px;
+        }
+    
+    
+    
+    
+    
+    .fylo .fylo-footer{
+        width: 100%;
+        min-height: 80vh;
+        background-color: var(--Dark-Blue-footer);
+        position: relative;
+        padding-top: 150px;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+        .fylo .fylo-footer .section-action{
+            width: 60%;
+            min-width: 400px;
+            background: var(--Dark-Blue-email);
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 30px;
+            position: absolute;
+            top: -170px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
+        .fylo .fylo-footer .section-action .title{
+            font-size: 2.5em;
+        }
+    
+        .fylo .fylo-footer .section-action .sub{
+            text-align: center;
+            padding: 30px;
+        }
+    
+        .fylo .fylo-footer .section-action .form{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+        }
+    
+        .fylo .fylo-footer .section-action .form .form-label{
+            display: none;
+        }
+    
+        .fylo .fylo-footer .section-action .form .form-input{
+            height: 48px;
+            border-radius: 48px;
+            border: none;
+            width: calc(100% - 250px);
+            padding-left: 25px;
+        }
+    
+        .fylo .fylo-footer .content {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: calc(100% - 150px);
+        }
+    
+        .fylo .fylo-footer .content .wrap{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-location,
+        .fylo .fylo-footer .content .wrap .container-contato,
+        .fylo .fylo-footer .content .wrap .container-menu,
+        .fylo .fylo-footer .content .wrap .container-social
+        {
+            flex-shrink: 1;
+            padding-bottom: 30px;
+        }
+    
+        .fylo .fylo-footer .content .container-brand{
+            width: 380px;
+    
+        }
+    
+        .fylo .fylo-footer .content .container-brand .brand-logo{
+            width: 165px;
+            height: auto;
+            padding-bottom: 25px;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-location{
+            display: flex;
+            max-width: 380px;
+            flex-direction: row;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-location img{
+            width: 16px;
+            margin-right: 15px;
+            height: 16px;
+            margin-top: 5px;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-location  p{
+            font-size: 14px;
+            line-height: 1.8em;
+            letter-spacing: 0.04em;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-contato{
+            display: flex;
+            flex-wrap: wrap;
+    
+            align-items: center;
+            height: fit-content;
+    
+        }
+    
+    
+        .fylo .fylo-footer .content .wrap .container-contato .span-item{
+            display: block;
+            width: 100%;
+    
+            margin: 7px 0;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-contato .span-item img{
+            width: 16px;
+            height: auto;
+            margin-right: 15px;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-menu{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            list-style: none;
+    
+            align-items: flex-start;
+            padding: 0 15px;
+                min-width: 150px;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-menu .menu-item{
+            display: block;
+            padding: 12px 0;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-menu .menu-item:nth-child(1){
+            padding: 0 0;
+            padding-bottom: 7px;
+    
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-menu .menu-item .menu-link{
+            font-size: 16px;
+            opacity: 1;
+        }
+    
+    
+        .fylo .fylo-footer .content .wrap .container-social{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .fylo .fylo-footer .content .wrap .container-social .social-link{
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            border: 1px solid var(--White);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 0 7px;
+        }
 }
 
-    .fylo .section-product .product-image,
-    .fylo .product-wrap{
-        width: calc(50% - 15px);
-        height: 100%;
-            display: flex;
+@media (max-width: 375px){
+    .fylo .fylo-header{
+        width: 100%;
+        height: 100px;
+
+        display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        
+    }
+
+        .fylo .fylo-header .container-brand{
+            width: 100px;
+            height: auto;
+        
+        }
+
+        .fylo .fylo-header .navbar{
+            height: 100%;
+
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;  
+        }
+
+        .fylo .fylo-header .navbar .nav-menu{
+            height: 100%;
+            list-style: none;
+
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .fylo .fylo-header .navbar .nav-menu .menu-item{
+            margin: 0 15px;
+        }
+
+        .fylo .fylo-header .navbar .nav-menu .menu-item:last-child,
+        .fylo .fylo-header .navbar .nav-menu .menu-item:first-child {
+            margin:0;
+        }
+
+        .fylo .fylo-header .navbar .nav-menu .menu-item .menu-link{
+            opacity: 1;
+        }
+
+
+
+
+    .fylo .welcome{
+        min-height: 100vh;
+        padding-bottom: 100px;
+        background-image: linear-gradient(to bottom, transparent, var(--Dark-Blue-bg-main));
+    }
+
+        .fylo .welcome .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+
+            background-size: 150%;
+            width: 100%;
+            padding: 0 15px;
+            background-image: url("../../img/bg-curvy-mobile.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .fylo .welcome .content .title,
+        .hylo .welcome .content .sub{
+            text-align: center;
+        }
+
+        .fylo .welcome .content h1{
+            font-size: 1.5rem;
+        }
+
+        .fylo .welcome .content .sub{
+            font-weight: 400;
+            text-align: center;
+            font-size: 16px;
+            max-width: 555px;
+            margin: 0 auto;
+            line-height: 1.5em;
+            opacity: 0.9;
+        }
+
+        .fylo .welcome .content .btn-primary{
+            margin: 25px 0;
+            width: 280px;
+            /* height: 58px; */
+        }
+
+
+
+
+    .fylo .section-features{
+        background-color: var(--Dark-Blue-bg-main);
+        padding-bottom: 100px;
+    }
+
+        .fylo .section-features .content{
+            padding: 1px 15px;
+            width: 100%;
+        }
+
+        .fylo .section-features .content .box{
+            width: 100%;
+            height: auto;
+            margin: 15px 0;
+            padding: 15px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fylo .section-features .content .box .box-icon{
+            width: 70px;
+            height: auto;
+        }
+
+        .fylo .section-features .content .box .box-title{
+            font-size: 18px;
+            padding: 14px 0;
+        }
+
+        .fylo .section-features .content .box .box-text{
+            text-align: center;
+            display: block;
+            width: 100%;
+            opacity: 0.8;
+            line-height: 1.5em;
+            font-weight: 100;
+            letter-spacing: normal;
+        }
+
+
+
+
+
+    .fylo .section-product{
+        background-color: var(--Dark-Blue-bg-main);
+        padding: 1px 15px;
+        padding-bottom: 105px;
     }
 
     .fylo .section-product .product-image{
-        flex-direction: row;
-        justify-content: unset;
+        margin: 25px 15px;
     }
 
-    .fylo .product-wrap{
-        padding-left: 30px;
-        align-items: unset;
+    .fylo .section-product .product-wrap{
+        width: 100%;
     }
 
     .fylo .product-wrap .title{
-        font-size: 2.4rem;
+        font-size: 1.2rem;
         max-width: 375px;
         line-height: 1.3em;
         margin-bottom: 15px;
@@ -208,258 +659,10 @@
         max-width: fit-content;
         padding-bottom: 5px;
         margin-top: 15px;
-
+        width: 100%;
     }
 
-    .fylo .product-wrap a img{
-        height: 16px;
-        width: auto;
-        margin-left: 5px;
+    .fylo .product-wrap .link img{
+        width: 20px;
     }
-
-
-
-
-.fylo .section-testimony{
-    width: 100%;
-    background-color: var(--Dark-Blue-bg-main);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding: 100px 15px;
-    padding-bottom: 500px;
-}
-
-    .fylo .section-testimony .content{
-        background-image: url("../../img/bg-quotes.png");
-        background-repeat: no-repeat;
-        width: calc(100% - 150px);
-
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding-top: 35px;
-    }
-
-    .fylo .section-testimony .content .card{
-        width: calc(100% / 3 - 30px);
-        background: var(--Dark-Blue-testimonials);
-        padding: 30px 15px;
-        box-shadow: 0 10px 5px hsl(217, 28%, 15%), 10px 0 5px hsl(217, 28%, 15%), 10px 10px 5px hsl(217, 28%, 15%);
-    }
-
-    .fylo .section-testimony .content .card .card-sub{
-        font-size: 14px;
-        line-height: 1.5em;
-        letter-spacing: 0.06em;
-        opacity: 0.9;
-    }
-
-    .fylo .section-testimony .content .card .card-footer{
-        margin-top: 25px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .fylo .section-testimony .content .card .card-footer .perfil-img{
-        padding-right: 15px;
-    }
-
-    .fylo .section-testimony .content .card .card-footer .perfil-img img{
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-    }
-
-    .fylo .section-testimony .content .card .card-footer .perfil-sub .name{
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-    .fylo .section-testimony .content .card .card-footer .perfil-sub .work{
-        opacity: 0.9;
-        font-size: 12px;
-        padding-top: 5px;
-    }
-
-.fylo .fylo-footer{
-    width: 100%;
-    min-height: 80vh;
-    background-color: var(--Dark-Blue-footer);
-    position: relative;
-    padding-top: 100px;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.fylo .fylo-footer .section-action{
-    width: 60%;
-    min-width: 400px;
-    background: var(--Dark-Blue-email);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 30px;
-    position: absolute;
-    top: -170px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.fylo .fylo-footer .section-action .title{
-    font-size: 2.5em;
-}
-
-.fylo .fylo-footer .section-action .sub{
-    text-align: center;
-    padding: 30px;
-}
-
-.fylo .fylo-footer .section-action .form{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.fylo .fylo-footer .section-action .form .form-label{
-    display: none;
-}
-
-.fylo .fylo-footer .section-action .form .form-input{
-    height: 48px;
-    border-radius: 48px;
-    border: none;
-    width: calc(100% - 250px);
-    padding-left: 25px;
-}
-
-.fylo .fylo-footer .content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: calc(100% - 150px);
-}
-
-.fylo .fylo-footer .content .wrap{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: stretch;
-}
-
-.fylo .fylo-footer .content .wrap .container-location,
-.fylo .fylo-footer .content .wrap .container-contato,
-.fylo .fylo-footer .content .wrap .container-menu,
-.fylo .fylo-footer .content .wrap .container-social
-{
-    flex-shrink: 1;
-}
-
-.fylo .fylo-footer .content .container-brand{
-    width: 380px;
-
-}
-
-.fylo .fylo-footer .content .container-brand .brand-logo{
-    width: 165px;
-    height: auto;
-    padding-bottom: 25px;
-}
-
-.fylo .fylo-footer .content .wrap .container-location{
-    display: flex;
-    max-width: 380px;
-    flex-direction: row;
-}
-
-.fylo .fylo-footer .content .wrap .container-location img{
-    width: 16px;
-    margin-right: 15px;
-    height: 16px;
-    margin-top: 5px;
-}
-
-.fylo .fylo-footer .content .wrap .container-location  p{
-    font-size: 14px;
-    line-height: 1.8em;
-    letter-spacing: 0.04em;
-}
-
-.fylo .fylo-footer .content .wrap .container-contato{
-    display: flex;
-    flex-wrap: wrap;
-
-    align-items: center;
-    height: fit-content;
-
-}
-
-
-.fylo .fylo-footer .content .wrap .container-contato .span-item{
-    display: block;
-    width: 100%;
-
-    margin: 7px 0;
-}
-
-.fylo .fylo-footer .content .wrap .container-contato .span-item img{
-    width: 16px;
-    height: auto;
-    margin-right: 15px;
-}
-
-.fylo .fylo-footer .content .wrap .container-menu{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    list-style: none;
-
-    align-items: flex-start;
-    padding: 0 15px;
-        min-width: 150px;
-}
-
-.fylo .fylo-footer .content .wrap .container-menu .menu-item{
-    display: block;
-    padding: 12px 0;
-}
-
-.fylo .fylo-footer .content .wrap .container-menu .menu-item:nth-child(1){
-    padding: 0 0;
-    padding-bottom: 7px;
-
-}
-
-.fylo .fylo-footer .content .wrap .container-menu .menu-item .menu-link{
-    font-size: 16px;
-    opacity: 1;
-}
-
-
-.fylo .fylo-footer .content .wrap .container-social{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.fylo .fylo-footer .content .wrap .container-social .social-link{
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    border: 1px solid var(--White);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 7px;
 }
