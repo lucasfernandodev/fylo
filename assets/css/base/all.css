@@ -62,3 +62,8 @@ header{
     font-size: 16px;
     cursor: pointer;
 }
+
+.link-hide{
+    visibility: hidden;
+    position: absolute;
+}
