@@ -11,7 +11,7 @@ Your task is to build out the project to the designs inside the `desafios/design
 
 ## Technologies
 
-Technologies used are HTML5 and CSS3
+Technologies used are *HTML5* and *CSS3*
 
 ## Website Preview
 
