@@ -13,7 +13,7 @@ Your task is to build out the project to the designs inside the `desafios/design
 
 Technologies used are *HTML5* and *CSS3*
 
-## Website Preview
+## Preview
 
 The site was hosted on Github pages, you can see a preview of the site <a href="https://fylostorage.netlify.com/">here</a>.
 
